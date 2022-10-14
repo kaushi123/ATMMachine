@@ -1,7 +1,7 @@
-General info:
+## General info:
     This is an API system which used to get the details of ATM Machine functionalities. This project contains springboot, swagger ui and H2 database, etc. 
 
-Requirement : 
+## Requirement: 
     -	should initialize with the following accounts:
             Account Number	PIN	Opening Balance	Overdraft
             123456789		1234	800			200
@@ -14,7 +14,7 @@ Requirement :
     -	should only dispense the exact amounts requested,
     -	should dispense the minimum number of notes per withdrawal
 
-Technologies:
+## Technologies:
     -Spring Boot
     -Spring JPA
     -Spring Security
@@ -22,17 +22,13 @@ Technologies:
     -JUnit
     -Mokito
     
-Database Configurations -
+## Database Configurations -
     - http://localhost:8081/h2-console/
     - Database Name - bankdb
     - Username - sa
     
-Swagger API documentation:
-    -- http://localhost:8081/swagger-ui.html
+## Swagger API documentation:
+    - http://localhost:8081/swagger-ui.html
 
-Running locally:
+## Running locally:
 Open in your favorite IDE, import dependencies with Maven, build, and run
-
-
-
-
